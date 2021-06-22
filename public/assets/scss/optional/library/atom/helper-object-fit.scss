@@ -1,0 +1,77 @@
+@if $use-helper-object-fit-styles == true {
+  .object {
+    &-contain {
+      object-fit: contain;
+    }
+    &-cover {
+      object-fit: cover;
+    }
+    &-fill {
+      object-fit: fill;
+    }
+    &-none {
+      object-fit: none;
+    }
+    &-scale-down {
+      object-fit: scale-down;
+    }
+  }
+
+  @include max_devices($lg) {
+    .lg\:object {
+      &-contain {
+        object-fit: contain;
+      }
+      &-cover {
+        object-fit: cover;
+      }
+      &-fill {
+        object-fit: fill;
+      }
+      &-none {
+        object-fit: none;
+      }
+      &-scale-down {
+        object-fit: scale-down;
+      }
+    }
+  }
+  @include max_devices($md) {
+    .md\:object {
+      &-contain {
+        object-fit: contain;
+      }
+      &-cover {
+        object-fit: cover;
+      }
+      &-fill {
+        object-fit: fill;
+      }
+      &-none {
+        object-fit: none;
+      }
+      &-scale-down {
+        object-fit: scale-down;
+      }
+    }
+  }
+  @include max_devices($sm) {
+    .sm\:object {
+      &-contain {
+        object-fit: contain;
+      }
+      &-cover {
+        object-fit: cover;
+      }
+      &-fill {
+        object-fit: fill;
+      }
+      &-none {
+        object-fit: none;
+      }
+      &-scale-down {
+        object-fit: scale-down;
+      }
+    }
+  }
+}

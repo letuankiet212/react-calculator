@@ -1,0 +1,30 @@
+@if $use-helper-visibility-styles == true {
+  @media screen and (max-width: 768px) {
+    .md\:hidden {
+      display: none !important;
+    }
+
+    .md\:visible {
+      display: block;
+    }
+  }
+  @media screen and (min-width: 769px) {
+    .hidden {
+      display: none !important;
+    }
+
+    .visible {
+      display: block;
+    }
+  }
+}
+
+@include max_devices($sm) {
+  .sm\:hidden {
+    display: none !important;
+  }
+
+  .sm\:visible {
+    display: block;
+  }
+}
