@@ -10,31 +10,32 @@ html {
   min-height: 100%;
   font-size: 10px;
   @include max_devices(1920) {
-    font-size: 0.521vw;
+    //font-size: 0.521vw;
+    font-size: 10px;
   }
-  @media only screen and (min-width: 1441px) and (max-width: 1600px) {
-    font-size: 0.6vw;
-  }
-  @media only screen and (min-width: 1025px) and (max-width: 1440px) {
-
-    font-size: 0.69vw;
-  }
-  @media only screen and (min-width: 769px) and (max-width: 1024px) {
-    font-size: 0.69vw;
-  }
-  @media only screen and (max-width: 768px) {
-    font-size: 1.3020833333vw;
-  }
-  @media only screen and (min-width: 481px) and (max-width: 568px) {
-  }
-  @media only screen and (min-width: 414px) and (max-width: 480px) {
-  }
-  @media only screen and (min-width: 375px) and (max-width: 413px) {
-  }
-  @media only screen and (min-width: 361px) and (max-width: 374px) {
-  }
-  @media only screen and (min-width: 320px) and (max-width: 360px) {
-  }
+  //@media only screen and (min-width: 1441px) and (max-width: 1600px) {
+  //  font-size: 0.6vw;
+  //}
+  //@media only screen and (min-width: 1025px) and (max-width: 1440px) {
+  //
+  //  font-size: 0.69vw;
+  //}
+  //@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  //  font-size: 0.69vw;
+  //}
+  //@media only screen and (max-width: 768px) {
+  //  font-size: 1.3020833333vw;
+  //}
+  //@media only screen and (min-width: 481px) and (max-width: 568px) {
+  //}
+  //@media only screen and (min-width: 414px) and (max-width: 480px) {
+  //}
+  //@media only screen and (min-width: 375px) and (max-width: 413px) {
+  //}
+  //@media only screen and (min-width: 361px) and (max-width: 374px) {
+  //}
+  //@media only screen and (min-width: 320px) and (max-width: 360px) {
+  //}
 }
 
 body {
@@ -68,14 +69,9 @@ body {
 }
 
 .container {
-  position: relative;
   width: $width-container;
-  margin: 0 auto;
-  padding: 0 1.5rem;
-
   @include max_devices(768) {
     width: 100%;
-    padding: 0 1.7rem;
   }
 }
 
