@@ -29,7 +29,7 @@ function App() {
 										: { boxShadow: "0px 5px 0px #B2A39B" }
 								}
 							>
-								<p className="centered w-full text-center">{number}</p>
+								<p className="col-span2 centered w-full text-center">{number}</p>
 							</div>
 						))}
 					</div>
