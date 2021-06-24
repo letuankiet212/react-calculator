@@ -14,7 +14,7 @@ export const data = [
 	".",
 	0,
 	"/",
-	"x",
+	"*",
 	"RESET",
 	"=",
 ];

@@ -1,0 +1,32 @@
+.btn-blue {
+    background-color: #647299;
+    box-shadow: 0px 0.5rem 0px #414e73;
+}
+.btn-red {
+    background-color: #d13f30;
+    box-shadow: 0px 0.5rem 0px #93261d;
+}
+
+.box-shadow {
+    box-shadow: 0px 0.5rem 0px #b0a097;
+}
+
+.hover\:press-down {
+    &:hover {
+        margin-top: 0.3rem;
+        box-shadow: 0px 0.3rem 0px #b0a097;
+    }
+}
+
+.hover\:press-down-blue {
+    &:hover {
+        margin-top: 0.3rem;
+        box-shadow: 0px 0.3rem 0px #414e73;
+    }
+}
+.hover\:press-down-red {
+    &:hover {
+        margin-top: 0.3rem;
+        box-shadow: 0px 0.3rem 0px #93261d;
+    }
+}

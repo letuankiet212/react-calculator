@@ -10,22 +10,20 @@ html {
   min-height: 100%;
   font-size: 10px;
   @include max_devices(1920) {
-    //font-size: 0.521vw;
-    font-size: 10px;
+    font-size: 0.521vw;
   }
-  //@media only screen and (min-width: 1441px) and (max-width: 1600px) {
-  //  font-size: 0.6vw;
-  //}
-  //@media only screen and (min-width: 1025px) and (max-width: 1440px) {
-  //
-  //  font-size: 0.69vw;
-  //}
-  //@media only screen and (min-width: 769px) and (max-width: 1024px) {
-  //  font-size: 0.69vw;
-  //}
-  //@media only screen and (max-width: 768px) {
-  //  font-size: 1.3020833333vw;
-  //}
+  @media only screen and (min-width: 1441px) and (max-width: 1600px) {
+   font-size: 0.6vw;
+  }
+  @media only screen and (min-width: 1025px) and (max-width: 1440px) {
+   font-size: 0.69vw;
+  }
+  @media only screen and (min-width: 769px) and (max-width: 1024px) {
+   font-size: 0.9vw;
+  }
+  @media only screen and (max-width: 768px) {
+   font-size: 1.3020833333vw;
+  }
   //@media only screen and (min-width: 481px) and (max-width: 568px) {
   //}
   //@media only screen and (min-width: 414px) and (max-width: 480px) {
@@ -84,3 +82,4 @@ body {
 }
 
 
+@import "components/etc.scss";
